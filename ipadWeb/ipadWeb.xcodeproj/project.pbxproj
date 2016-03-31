@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E002A13D1CA2859A003E7B3D /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = E002A13C1CA2859A003E7B3D /* bear.png */; };
+		E04634A61CA92506002D03C1 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = E04634A51CA92506002D03C1 /* girl.png */; };
+		E0747EFC1CA3BE9F008563DB /* setColor.html in Resources */ = {isa = PBXBuildFile; fileRef = E0747EFB1CA3BE9F008563DB /* setColor.html */; };
+		E0747EFE1CA3BEAA008563DB /* extend.js in Resources */ = {isa = PBXBuildFile; fileRef = E0747EFD1CA3BEAA008563DB /* extend.js */; };
+		E0747F001CA3BEB5008563DB /* setColor.css in Resources */ = {isa = PBXBuildFile; fileRef = E0747EFF1CA3BEB5008563DB /* setColor.css */; };
+		E0747F021CA3D0FB008563DB /* HSI2.html in Resources */ = {isa = PBXBuildFile; fileRef = E0747F011CA3D0FB008563DB /* HSI2.html */; };
+		E0747F041CA3D137008563DB /* HSI2 14-15-41-449.html in Resources */ = {isa = PBXBuildFile; fileRef = E0747F031CA3D137008563DB /* HSI2 14-15-41-449.html */; };
+		E0E03EA41CA27C340005D0D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E03EA31CA27C340005D0D2 /* main.m */; };
+		E0E03EA71CA27C340005D0D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E03EA61CA27C340005D0D2 /* AppDelegate.m */; };
+		E0E03EAA1CA27C340005D0D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E03EA91CA27C340005D0D2 /* ViewController.m */; };
+		E0E03EAD1CA27C340005D0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E03EAB1CA27C340005D0D2 /* Main.storyboard */; };
+		E0E03EAF1CA27C340005D0D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E03EAE1CA27C340005D0D2 /* Assets.xcassets */; };
+		E0E03EB21CA27C340005D0D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E03EB01CA27C340005D0D2 /* LaunchScreen.storyboard */; };
+		E0E03EBD1CA27C340005D0D2 /* ipadWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E03EBC1CA27C340005D0D2 /* ipadWebTests.m */; };
+		E0E03EC81CA27C340005D0D2 /* ipadWebUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E03EC71CA27C340005D0D2 /* ipadWebUITests.m */; };
+		E0E03ED91CA27C850005D0D2 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E03ED71CA27C850005D0D2 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E0E03EDF1CA27CE60005D0D2 /* alloyimage.js in Resources */ = {isa = PBXBuildFile; fileRef = E0E03EDD1CA27CE60005D0D2 /* alloyimage.js */; };
+		E0E03EE01CA27CE60005D0D2 /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = E0E03EDE1CA27CE60005D0D2 /* jquery.js */; };
+		E0E03EE21CA27CFF0005D0D2 /* SY33.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E03EE11CA27CFF0005D0D2 /* SY33.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E03EB91CA27C340005D0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E03E971CA27C340005D0D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E03E9E1CA27C340005D0D2;
+			remoteInfo = ipadWeb;
+		};
+		E0E03EC41CA27C340005D0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E03E971CA27C340005D0D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E03E9E1CA27C340005D0D2;
+			remoteInfo = ipadWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E002A13C1CA2859A003E7B3D /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		E04634A51CA92506002D03C1 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		E0747EFB1CA3BE9F008563DB /* setColor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = setColor.html; sourceTree = "<group>"; };
+		E0747EFD1CA3BEAA008563DB /* extend.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = extend.js; sourceTree = "<group>"; };
+		E0747EFF1CA3BEB5008563DB /* setColor.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = setColor.css; sourceTree = "<group>"; };
+		E0747F011CA3D0FB008563DB /* HSI2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = HSI2.html; sourceTree = "<group>"; };
+		E0747F031CA3D137008563DB /* HSI2 14-15-41-449.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "HSI2 14-15-41-449.html"; sourceTree = "<group>"; };
+		E0E03E9F1CA27C340005D0D2 /* ipadWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipadWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E03EA31CA27C340005D0D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0E03EA51CA27C340005D0D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0E03EA61CA27C340005D0D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0E03EA81CA27C340005D0D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0E03EA91CA27C340005D0D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0E03EAC1CA27C340005D0D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0E03EAE1CA27C340005D0D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0E03EB11CA27C340005D0D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0E03EB31CA27C340005D0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E03EB81CA27C340005D0D2 /* ipadWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E03EBC1CA27C340005D0D2 /* ipadWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipadWebTests.m; sourceTree = "<group>"; };
+		E0E03EBE1CA27C340005D0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E03EC31CA27C340005D0D2 /* ipadWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E03EC71CA27C340005D0D2 /* ipadWebUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipadWebUITests.m; sourceTree = "<group>"; };
+		E0E03EC91CA27C340005D0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E03ED61CA27C850005D0D2 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		E0E03ED71CA27C850005D0D2 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		E0E03ED81CA27C850005D0D2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E0E03EDD1CA27CE60005D0D2 /* alloyimage.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = alloyimage.js; sourceTree = "<group>"; };
+		E0E03EDE1CA27CE60005D0D2 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		E0E03EE11CA27CFF0005D0D2 /* SY33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SY33.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E03E9C1CA27C340005D0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E03EB51CA27C340005D0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E03EC01CA27C340005D0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E03E961CA27C340005D0D2 = {
+			isa = PBXGroup;
+			children = (
+				E0E03EA11CA27C340005D0D2 /* ipadWeb */,
+				E0E03EBB1CA27C340005D0D2 /* ipadWebTests */,
+				E0E03EC61CA27C340005D0D2 /* ipadWebUITests */,
+				E0E03EA01CA27C340005D0D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E03EA01CA27C340005D0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E03E9F1CA27C340005D0D2 /* ipadWeb.app */,
+				E0E03EB81CA27C340005D0D2 /* ipadWebTests.xctest */,
+				E0E03EC31CA27C340005D0D2 /* ipadWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E03EA11CA27C340005D0D2 /* ipadWeb */ = {
+			isa = PBXGroup;
+			children = (
+				E0E03ED51CA27C850005D0D2 /* GTMBase64 */,
+				E0E03EA51CA27C340005D0D2 /* AppDelegate.h */,
+				E0E03EA61CA27C340005D0D2 /* AppDelegate.m */,
+				E0E03EA81CA27C340005D0D2 /* ViewController.h */,
+				E0E03EA91CA27C340005D0D2 /* ViewController.m */,
+				E0747EFB1CA3BE9F008563DB /* setColor.html */,
+				E0747F011CA3D0FB008563DB /* HSI2.html */,
+				E0747F031CA3D137008563DB /* HSI2 14-15-41-449.html */,
+				E002A13C1CA2859A003E7B3D /* bear.png */,
+				E04634A51CA92506002D03C1 /* girl.png */,
+				E0E03EE11CA27CFF0005D0D2 /* SY33.png */,
+				E0E03EDC1CA27CE60005D0D2 /* js */,
+				E0E03EAB1CA27C340005D0D2 /* Main.storyboard */,
+				E0E03EAE1CA27C340005D0D2 /* Assets.xcassets */,
+				E0E03EB01CA27C340005D0D2 /* LaunchScreen.storyboard */,
+				E0E03EB31CA27C340005D0D2 /* Info.plist */,
+				E0E03EA21CA27C340005D0D2 /* Supporting Files */,
+			);
+			path = ipadWeb;
+			sourceTree = "<group>";
+		};
+		E0E03EA21CA27C340005D0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E03EA31CA27C340005D0D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0E03EBB1CA27C340005D0D2 /* ipadWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E03EBC1CA27C340005D0D2 /* ipadWebTests.m */,
+				E0E03EBE1CA27C340005D0D2 /* Info.plist */,
+			);
+			path = ipadWebTests;
+			sourceTree = "<group>";
+		};
+		E0E03EC61CA27C340005D0D2 /* ipadWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E03EC71CA27C340005D0D2 /* ipadWebUITests.m */,
+				E0E03EC91CA27C340005D0D2 /* Info.plist */,
+			);
+			path = ipadWebUITests;
+			sourceTree = "<group>";
+		};
+		E0E03ED51CA27C850005D0D2 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				E0E03ED61CA27C850005D0D2 /* GTMBase64.h */,
+				E0E03ED71CA27C850005D0D2 /* GTMBase64.m */,
+				E0E03ED81CA27C850005D0D2 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		E0E03EDC1CA27CE60005D0D2 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				E0E03EDD1CA27CE60005D0D2 /* alloyimage.js */,
+				E0E03EDE1CA27CE60005D0D2 /* jquery.js */,
+				E0747EFD1CA3BEAA008563DB /* extend.js */,
+				E0747EFF1CA3BEB5008563DB /* setColor.css */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E03E9E1CA27C340005D0D2 /* ipadWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E03ECC1CA27C340005D0D2 /* Build configuration list for PBXNativeTarget "ipadWeb" */;
+			buildPhases = (
+				E0E03E9B1CA27C340005D0D2 /* Sources */,
+				E0E03E9C1CA27C340005D0D2 /* Frameworks */,
+				E0E03E9D1CA27C340005D0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipadWeb;
+			productName = ipadWeb;
+			productReference = E0E03E9F1CA27C340005D0D2 /* ipadWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E03EB71CA27C340005D0D2 /* ipadWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E03ECF1CA27C340005D0D2 /* Build configuration list for PBXNativeTarget "ipadWebTests" */;
+			buildPhases = (
+				E0E03EB41CA27C340005D0D2 /* Sources */,
+				E0E03EB51CA27C340005D0D2 /* Frameworks */,
+				E0E03EB61CA27C340005D0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E03EBA1CA27C340005D0D2 /* PBXTargetDependency */,
+			);
+			name = ipadWebTests;
+			productName = ipadWebTests;
+			productReference = E0E03EB81CA27C340005D0D2 /* ipadWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0E03EC21CA27C340005D0D2 /* ipadWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E03ED21CA27C340005D0D2 /* Build configuration list for PBXNativeTarget "ipadWebUITests" */;
+			buildPhases = (
+				E0E03EBF1CA27C340005D0D2 /* Sources */,
+				E0E03EC01CA27C340005D0D2 /* Frameworks */,
+				E0E03EC11CA27C340005D0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E03EC51CA27C340005D0D2 /* PBXTargetDependency */,
+			);
+			name = ipadWebUITests;
+			productName = ipadWebUITests;
+			productReference = E0E03EC31CA27C340005D0D2 /* ipadWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E03E971CA27C340005D0D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhumingke;
+				TargetAttributes = {
+					E0E03E9E1CA27C340005D0D2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TZVKBJ7BHB;
+					};
+					E0E03EB71CA27C340005D0D2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E0E03E9E1CA27C340005D0D2;
+					};
+					E0E03EC21CA27C340005D0D2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E0E03E9E1CA27C340005D0D2;
+					};
+				};
+			};
+			buildConfigurationList = E0E03E9A1CA27C340005D0D2 /* Build configuration list for PBXProject "ipadWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E03E961CA27C340005D0D2;
+			productRefGroup = E0E03EA01CA27C340005D0D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E03E9E1CA27C340005D0D2 /* ipadWeb */,
+				E0E03EB71CA27C340005D0D2 /* ipadWebTests */,
+				E0E03EC21CA27C340005D0D2 /* ipadWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E03E9D1CA27C340005D0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0747F021CA3D0FB008563DB /* HSI2.html in Resources */,
+				E0E03EE21CA27CFF0005D0D2 /* SY33.png in Resources */,
+				E0E03EE01CA27CE60005D0D2 /* jquery.js in Resources */,
+				E0747F041CA3D137008563DB /* HSI2 14-15-41-449.html in Resources */,
+				E0E03EDF1CA27CE60005D0D2 /* alloyimage.js in Resources */,
+				E04634A61CA92506002D03C1 /* girl.png in Resources */,
+				E0747EFC1CA3BE9F008563DB /* setColor.html in Resources */,
+				E0747F001CA3BEB5008563DB /* setColor.css in Resources */,
+				E0E03EB21CA27C340005D0D2 /* LaunchScreen.storyboard in Resources */,
+				E0E03EAF1CA27C340005D0D2 /* Assets.xcassets in Resources */,
+				E002A13D1CA2859A003E7B3D /* bear.png in Resources */,
+				E0747EFE1CA3BEAA008563DB /* extend.js in Resources */,
+				E0E03EAD1CA27C340005D0D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E03EB61CA27C340005D0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E03EC11CA27C340005D0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E03E9B1CA27C340005D0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E03EAA1CA27C340005D0D2 /* ViewController.m in Sources */,
+				E0E03EA71CA27C340005D0D2 /* AppDelegate.m in Sources */,
+				E0E03EA41CA27C340005D0D2 /* main.m in Sources */,
+				E0E03ED91CA27C850005D0D2 /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E03EB41CA27C340005D0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E03EBD1CA27C340005D0D2 /* ipadWebTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E03EBF1CA27C340005D0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E03EC81CA27C340005D0D2 /* ipadWebUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E03EBA1CA27C340005D0D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E03E9E1CA27C340005D0D2 /* ipadWeb */;
+			targetProxy = E0E03EB91CA27C340005D0D2 /* PBXContainerItemProxy */;
+		};
+		E0E03EC51CA27C340005D0D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E03E9E1CA27C340005D0D2 /* ipadWeb */;
+			targetProxy = E0E03EC41CA27C340005D0D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0E03EAB1CA27C340005D0D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E03EAC1CA27C340005D0D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0E03EB01CA27C340005D0D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E03EB11CA27C340005D0D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E03ECA1CA27C340005D0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E0E03ECB1CA27C340005D0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E03ECD1CA27C340005D0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ipadWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haoping.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0E03ECE1CA27C340005D0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ipadWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haoping.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0E03ED01CA27C340005D0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ipadWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.ipadWebTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipadWeb.app/ipadWeb";
+			};
+			name = Debug;
+		};
+		E0E03ED11CA27C340005D0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ipadWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.ipadWebTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipadWeb.app/ipadWeb";
+			};
+			name = Release;
+		};
+		E0E03ED31CA27C340005D0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ipadWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.ipadWebUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ipadWeb;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E0E03ED41CA27C340005D0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ipadWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.ipadWebUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ipadWeb;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E03E9A1CA27C340005D0D2 /* Build configuration list for PBXProject "ipadWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E03ECA1CA27C340005D0D2 /* Debug */,
+				E0E03ECB1CA27C340005D0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E03ECC1CA27C340005D0D2 /* Build configuration list for PBXNativeTarget "ipadWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E03ECD1CA27C340005D0D2 /* Debug */,
+				E0E03ECE1CA27C340005D0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E03ECF1CA27C340005D0D2 /* Build configuration list for PBXNativeTarget "ipadWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E03ED01CA27C340005D0D2 /* Debug */,
+				E0E03ED11CA27C340005D0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E03ED21CA27C340005D0D2 /* Build configuration list for PBXNativeTarget "ipadWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E03ED31CA27C340005D0D2 /* Debug */,
+				E0E03ED41CA27C340005D0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E03E971CA27C340005D0D2 /* Project object */;
+}
